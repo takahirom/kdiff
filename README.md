@@ -1,3 +1,14 @@
+# kdiff
+
+Simple way to identify whats different between 2 instances.
+inspired by [krzysztofzablocki/Difference](https://github.com/krzysztofzablocki/Difference)
+
+# Usage
+
+```
+assertDataEquals(expected, actual)
+```
+
 # before
 
 > Expected :[Article(title=Can detect title diff, writer=Writer(name=takahirom), tags=[Tag(name=Kotlin), Tag(name=Multiplatform), Tag(name=Android)], dateTime=DateTime(date=Date(month=10, dayOfMonth=23), time=Time(hour=9, minute=0))), Article(title=Can detect list size diff, writer=Writer(name=takahirom), tags=[Tag(name=Kotlin), Tag(name=Multiplatform), Tag(name=Android)], dateTime=DateTime(date=Date(month=10, dayOfMonth=23), time=Time(hour=9, minute=0))), Article(title=Can detect nested class diff, writer=Writer(name=takahirom), tags=[Tag(name=Kotlin), Tag(name=Multiplatform), Tag(name=Android)], dateTime=DateTime(date=Date(month=10, dayOfMonth=23), time=Time(hour=9, minute=0)))]  

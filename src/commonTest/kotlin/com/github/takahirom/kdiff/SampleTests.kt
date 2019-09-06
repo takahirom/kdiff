@@ -1,7 +1,7 @@
 package com.github.takahirom.kdiff
 
 import kotlin.test.Test
-import kotlin.test.assertEquals
+import kotlin.test.assertFailsWith
 
 data class Article(
     val title: String,
@@ -140,6 +140,8 @@ class SampleTests {
             )
         )
 //        assertEquals(expected, actual)
-        assertDataEquals(expected, actual)
+        assertFailsWith(AssertionError::class) {
+            assertDataEquals(expected, actual)
+        }
     }
 }
